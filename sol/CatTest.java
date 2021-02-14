@@ -1,4 +1,4 @@
-package lab04.sol;
+package sol;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
