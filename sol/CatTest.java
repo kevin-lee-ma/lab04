@@ -16,16 +16,16 @@ public class CatTest {
     BufferedReader r3 = null;
 
     try (BufferedReader r1 =
-            new BufferedReader(new FileReader("PATH TO SOME FILE A"));
+            new BufferedReader(new FileReader("poems/alice"));
             BufferedWriter w1 =
                     new BufferedWriter(new FileWriter(
-                            "PATH TO A DIFFERENT, EMPTY FILE B"))) {
+                            "poems/newalice"))) {
 
       Cat.cat(r1, w1);
 
       // set up readers for the two files
-      r2 = new BufferedReader(new FileReader("SAME PATH TO FILE A"));
-      r3 = new BufferedReader(new FileReader("SAME PATH TO FILE B"));
+      r2 = new BufferedReader(new FileReader("poems/alice"));
+      r3 = new BufferedReader(new FileReader("poems/newalice"));
 
       String line1 = r2.readLine();
       String line2 = r3.readLine();

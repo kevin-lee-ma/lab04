@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb557ec1-e002-4d6b-8c57-609250e96bcf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sol/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sol/Doc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sol/CatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sol/CatTest.java" afterDir="false" />
     </list>
@@ -14,13 +12,6 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,22 +25,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.Annotations" value="true" />
-    <property name="Repository.Attach.JavaDocs" value="true" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
-    <configuration name="Doc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sol.Doc" />
+    <configuration name="PrintArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sol.PrintArgs" />
       <module name="lab04" />
-      <option name="PROGRAM_PARAMETERS" value="poems/newalice" />
+      <option name="PROGRAM_PARAMETERS" value="hi there everyone" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sol.*" />
@@ -62,7 +46,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Doc" />
+        <item itemvalue="Application.PrintArgs" />
       </list>
     </recent_temporary>
   </component>
